@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Compra</title>
+    <style>
+
+
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .product input {
+            padding: 5px;
+            width: 60px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .product button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .product button:hover {
+            background-color: #45a049;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simulação de Compra </h1>
+    </header>
+
+    <div class="product-container">
+        <div class="product">
+            <h3>Ilustração</h3>
+            <img src="https://s2.glbimg.com/7dzisN-U42ChaQeJA8HPH9F8L4sp0re7dXrg1kCDpXpIoz-HdGixxa_8qOZvMp3w/s.glbimg.com/es/ge/f/original/2012/08/12/jabu.jpg"" alt="Produto 1">
+          
+            <p>R$ 1320,00</p>
+            <p>Em até 12x sem juros!    </p>
+            <form action="confirmacao.html" method="get">
+                <input type="number" name="quantidade" placeholder="Qtd" min="1" value="1">
+                <button><a href="./final.html" target="_blank">Comprar</a></button>
+                <p>Entrega em até sete dias úteis</p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

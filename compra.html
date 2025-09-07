@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    
+    <title>Login</title>
+
+    <style>
+
+*{
+    background-color: rgb(246, 248, 250);}
+    div{width: 400px; margin: auto; padding: 20px;
+     background-color: #f2f2f2; 
+     border-radius: 8px; 
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+    </style>
 </head>
 <body>
+    <!-- Página de Login -->
+    <div style="width: 400px; margin: auto; padding: 20px; background-color: #f2f2f2; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center;">Login</h2>
+        <form action="dashboard.html" method="GET">
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" name="username" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px;"><br>
 
-    <H1 id="h1.2">Cadastro</H1>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px;"><br>
 
-    <form action="cadastrar.php" method="POST">
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required><br><br>
-    
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required><br><br>
-    
-        <a href= "https://produto.mercadolivre.com.br/MLB-2646675318-linda-bola-jabulani-da-copa-do-mundo-da-africa-2010-_JM?searchVariation=174529749676#polycard_client=search-nordic&searchVariation=174529749676&search_layout=grid&position=1&type=item&tracking_id=bf009776-920c-4731-88f0-cc0b1909968f" target="_blank"> Cadastro</a>
-    </form>
+            <button > <a href="./cartão.html"target="_blank">Entrar</a</button>
+        </form>
+    </div>
+</body>
+</html>
 
 
-    
-    
+
+    <div style="width: 400px; margin: auto; padding: 20px; background-color: #f2f2f2; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center;"></h2>
+        <p style="text-align: center;"></p>
+        <a href="index.html">Sair</a>
+    </div>
+
 </body>
 </html>
