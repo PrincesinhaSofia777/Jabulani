@@ -9,7 +9,8 @@ background-color: rgb(238, 238, 222);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a{text-decoration: none;
+a{
+    text-decoration: none;
     margin-bottom: 40px;
     margin-top: 40px;
     color: rgb(223, 94, 148);
